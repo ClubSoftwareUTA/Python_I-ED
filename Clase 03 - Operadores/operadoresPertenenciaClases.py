@@ -2,10 +2,10 @@
 listaUno = [1,2,3,4,5]
 listaDos = [6,7,8]
 
-# "in" operador de pertenencia en caso de existir
-#print(2 in listaUno)
+#"in" operador de pertenencia en caso de existir
+print(2 in listaUno)
 # "not in" contraparte del operador "in"
-#print(7 not in listaUno)
+print(7 not in listaUno)
 
 #diccionario (en los diccionarios buscamos mediante las llaves)
 diccionarioUno = {"saludo":["hola","que","tal"]
@@ -14,3 +14,4 @@ diccionarioUno = {"saludo":["hola","que","tal"]
 #print("hola" not in diccionarioUno)
 #diccionarioUno["saludo"] = ["hola","que","tal"]
 print("despedida" in diccionarioUno["saludo"])
+
